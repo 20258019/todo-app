@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: todo-app-deployment
-  namespace: rpailer-dev
+  namespace: crt-2510781033-dev
   labels:
     app: todo-app
 spec:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: todo-db-nextjs
-        image: quay.io/rpailer/todo-db:latest
+        image: qimage: image-registry.openshift-image-registry.svc:5000/crt-2510781033-dev/todo-app-git:latest
         ports:
         - containerPort: 3000
           name: todo
