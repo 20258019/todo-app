@@ -4,6 +4,6 @@ metadata:
   name: todo-config
   namespace: crt-2510781033-dev
 data:
-  SERVER_URL: "http://127.0.0.1:3000"
+  SERVER_URL: "http://todo-svc:3000"
   CLOUDANT_URL: "https://ce6ffc90-83d3-4215-ba51-fa887659875b-bluemix.cloudantnosqldb.appdomain.cloud"
   CLOUDANT_DB_NAME: "todo-db"
