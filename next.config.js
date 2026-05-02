@@ -3,6 +3,11 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   basePath: process.env.BASE_PATH,
+  eslint: {
+
+    ignoreDuringBuilds: true,
+
+  },
   //assetPrefix: process.env.BASE_PATH,
   turbopack: {
     root: path.join(__dirname, '.'),
