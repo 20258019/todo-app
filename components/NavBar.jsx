@@ -54,7 +54,7 @@ export default function NavBar () {
                   
                 </Menu> 
                 <Typography variant="h6">
-                TODO App
+                Michael Lang's TODO App
               </Typography>
             </Toolbar>
           </AppBar>
